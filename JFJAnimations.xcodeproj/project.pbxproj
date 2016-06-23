@@ -15,6 +15,32 @@
 		DB2CD1F41D13E8BA00A702DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB2CD1F21D13E8BA00A702DC /* LaunchScreen.storyboard */; };
 		DB2CD1FF1D13E8BA00A702DC /* JFJAnimationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD1FE1D13E8BA00A702DC /* JFJAnimationsTests.m */; };
 		DB2CD20A1D13E8BA00A702DC /* JFJAnimationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD2091D13E8BA00A702DC /* JFJAnimationsUITests.m */; };
+		DB2CD21E1D13EB0D00A702DC /* JFJAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD21D1D13EB0D00A702DC /* JFJAnimationManager.m */; };
+		DB2CD2241D13EB5400A702DC /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD2201D13EB5400A702DC /* easing.c */; };
+		DB2CD2251D13EB5400A702DC /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD2231D13EB5400A702DC /* YXEasing.m */; };
+		DB2CD22A1D13F6D600A702DC /* easing.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CD2291D13F6D600A702DC /* easing.png */; };
+		DB38AAA61D18DCB20079D152 /* UITableView+LoadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAA51D18DCB20079D152 /* UITableView+LoadAnimation.m */; };
+		DB38AAAC1D18DCEE0079D152 /* JFJAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAA91D18DCEE0079D152 /* JFJAnimationController.m */; };
+		DB38AAAD1D18DCEE0079D152 /* JFJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAAB1D18DCEE0079D152 /* JFJNavigationController.m */; };
+		DB38AAB01D18DD750079D152 /* JFJTranslationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAAF1D18DD750079D152 /* JFJTranslationManager.m */; };
+		DB38AABB1D190FC90079D152 /* 火影01.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AAB61D190FC90079D152 /* 火影01.png */; };
+		DB38AABC1D190FC90079D152 /* 火影02.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AAB71D190FC90079D152 /* 火影02.png */; };
+		DB38AABD1D190FC90079D152 /* 火影03.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AAB81D190FC90079D152 /* 火影03.png */; };
+		DB38AABE1D190FC90079D152 /* 火影04.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AAB91D190FC90079D152 /* 火影04.png */; };
+		DB38AABF1D190FC90079D152 /* 火影05.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AABA1D190FC90079D152 /* 火影05.png */; };
+		DB38AAC91D1A64C70079D152 /* JFJEffectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAC81D1A64C70079D152 /* JFJEffectManager.m */; };
+		DB38AAD01D1A74CA0079D152 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AACF1D1A74CA0079D152 /* UIImage+ImageEffects.m */; };
+		DB4FF5BA1D1B7B1700391875 /* AnchorRotaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A51D1B7B1700391875 /* AnchorRotaeViewController.m */; };
+		DB4FF5BB1D1B7B1700391875 /* CenterRoutateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A71D1B7B1700391875 /* CenterRoutateViewController.m */; };
+		DB4FF5BC1D1B7B1700391875 /* CircleTransController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A91D1B7B1700391875 /* CircleTransController.m */; };
+		DB4FF5BD1D1B7B1700391875 /* DelayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5AB1D1B7B1700391875 /* DelayViewController.m */; };
+		DB4FF5BE1D1B7B1700391875 /* EffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5AD1D1B7B1700391875 /* EffectViewController.m */; };
+		DB4FF5BF1D1B7B1700391875 /* FlipViewConreoller.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5AF1D1B7B1700391875 /* FlipViewConreoller.m */; };
+		DB4FF5C01D1B7B1700391875 /* ImageTransController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B11D1B7B1700391875 /* ImageTransController.m */; };
+		DB4FF5C11D1B7B1700391875 /* ShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B31D1B7B1700391875 /* ShakeViewController.m */; };
+		DB4FF5C21D1B7B1700391875 /* SmallToBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B51D1B7B1700391875 /* SmallToBigViewController.m */; };
+		DB4FF5C31D1B7B1700391875 /* TransBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B71D1B7B1700391875 /* TransBlurController.m */; };
+		DB4FF5C41D1B7B1700391875 /* TransSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B91D1B7B1700391875 /* TransSystemController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +77,52 @@
 		DB2CD2051D13E8BA00A702DC /* JFJAnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JFJAnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB2CD2091D13E8BA00A702DC /* JFJAnimationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFJAnimationsUITests.m; sourceTree = "<group>"; };
 		DB2CD20B1D13E8BA00A702DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB2CD21C1D13EB0D00A702DC /* JFJAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFJAnimationManager.h; sourceTree = "<group>"; };
+		DB2CD21D1D13EB0D00A702DC /* JFJAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJAnimationManager.m; sourceTree = "<group>"; };
+		DB2CD2201D13EB5400A702DC /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		DB2CD2211D13EB5400A702DC /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		DB2CD2221D13EB5400A702DC /* YXEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXEasing.h; sourceTree = "<group>"; };
+		DB2CD2231D13EB5400A702DC /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
+		DB2CD2291D13F6D600A702DC /* easing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easing.png; sourceTree = "<group>"; };
+		DB38AAA41D18DCB20079D152 /* UITableView+LoadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LoadAnimation.h"; sourceTree = "<group>"; };
+		DB38AAA51D18DCB20079D152 /* UITableView+LoadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LoadAnimation.m"; sourceTree = "<group>"; };
+		DB38AAA81D18DCEE0079D152 /* JFJAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFJAnimationController.h; sourceTree = "<group>"; };
+		DB38AAA91D18DCEE0079D152 /* JFJAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJAnimationController.m; sourceTree = "<group>"; };
+		DB38AAAA1D18DCEE0079D152 /* JFJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFJNavigationController.h; sourceTree = "<group>"; };
+		DB38AAAB1D18DCEE0079D152 /* JFJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJNavigationController.m; sourceTree = "<group>"; };
+		DB38AAAE1D18DD750079D152 /* JFJTranslationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFJTranslationManager.h; sourceTree = "<group>"; };
+		DB38AAAF1D18DD750079D152 /* JFJTranslationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJTranslationManager.m; sourceTree = "<group>"; };
+		DB38AAB61D190FC90079D152 /* 火影01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "火影01.png"; path = "../火影01.png"; sourceTree = "<group>"; };
+		DB38AAB71D190FC90079D152 /* 火影02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "火影02.png"; path = "../火影02.png"; sourceTree = "<group>"; };
+		DB38AAB81D190FC90079D152 /* 火影03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "火影03.png"; path = "../火影03.png"; sourceTree = "<group>"; };
+		DB38AAB91D190FC90079D152 /* 火影04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "火影04.png"; path = "../火影04.png"; sourceTree = "<group>"; };
+		DB38AABA1D190FC90079D152 /* 火影05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "火影05.png"; path = "../火影05.png"; sourceTree = "<group>"; };
+		DB38AAC81D1A64C70079D152 /* JFJEffectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJEffectManager.m; sourceTree = "<group>"; };
+		DB38AACE1D1A74CA0079D152 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DB38AACF1D1A74CA0079D152 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DB4FF5A21D1B7B0500391875 /* JFJEffectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFJEffectManager.h; sourceTree = "<group>"; };
+		DB4FF5A41D1B7B1700391875 /* AnchorRotaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorRotaeViewController.h; sourceTree = "<group>"; };
+		DB4FF5A51D1B7B1700391875 /* AnchorRotaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorRotaeViewController.m; sourceTree = "<group>"; };
+		DB4FF5A61D1B7B1700391875 /* CenterRoutateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterRoutateViewController.h; sourceTree = "<group>"; };
+		DB4FF5A71D1B7B1700391875 /* CenterRoutateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterRoutateViewController.m; sourceTree = "<group>"; };
+		DB4FF5A81D1B7B1700391875 /* CircleTransController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleTransController.h; sourceTree = "<group>"; };
+		DB4FF5A91D1B7B1700391875 /* CircleTransController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleTransController.m; sourceTree = "<group>"; };
+		DB4FF5AA1D1B7B1700391875 /* DelayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayViewController.h; sourceTree = "<group>"; };
+		DB4FF5AB1D1B7B1700391875 /* DelayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayViewController.m; sourceTree = "<group>"; };
+		DB4FF5AC1D1B7B1700391875 /* EffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EffectViewController.h; sourceTree = "<group>"; };
+		DB4FF5AD1D1B7B1700391875 /* EffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EffectViewController.m; sourceTree = "<group>"; };
+		DB4FF5AE1D1B7B1700391875 /* FlipViewConreoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipViewConreoller.h; sourceTree = "<group>"; };
+		DB4FF5AF1D1B7B1700391875 /* FlipViewConreoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipViewConreoller.m; sourceTree = "<group>"; };
+		DB4FF5B01D1B7B1700391875 /* ImageTransController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTransController.h; sourceTree = "<group>"; };
+		DB4FF5B11D1B7B1700391875 /* ImageTransController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTransController.m; sourceTree = "<group>"; };
+		DB4FF5B21D1B7B1700391875 /* ShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeViewController.h; sourceTree = "<group>"; };
+		DB4FF5B31D1B7B1700391875 /* ShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeViewController.m; sourceTree = "<group>"; };
+		DB4FF5B41D1B7B1700391875 /* SmallToBigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallToBigViewController.h; sourceTree = "<group>"; };
+		DB4FF5B51D1B7B1700391875 /* SmallToBigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallToBigViewController.m; sourceTree = "<group>"; };
+		DB4FF5B61D1B7B1700391875 /* TransBlurController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransBlurController.h; sourceTree = "<group>"; };
+		DB4FF5B71D1B7B1700391875 /* TransBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransBlurController.m; sourceTree = "<group>"; };
+		DB4FF5B81D1B7B1700391875 /* TransSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransSystemController.h; sourceTree = "<group>"; };
+		DB4FF5B91D1B7B1700391875 /* TransSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransSystemController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +173,12 @@
 		DB2CD1E31D13E8BA00A702DC /* JFJAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				DB4FF5A31D1B7B1700391875 /* controllers */,
 				DB2CD1E71D13E8BA00A702DC /* AppDelegate.h */,
 				DB2CD1E81D13E8BA00A702DC /* AppDelegate.m */,
 				DB2CD1EA1D13E8BA00A702DC /* ViewController.h */,
 				DB2CD1EB1D13E8BA00A702DC /* ViewController.m */,
+				DB2CD21B1D13EAF000A702DC /* JFJAnimation */,
 				DB2CD1ED1D13E8BA00A702DC /* Main.storyboard */,
 				DB2CD1F01D13E8BA00A702DC /* Assets.xcassets */,
 				DB2CD1F21D13E8BA00A702DC /* LaunchScreen.storyboard */,
@@ -117,6 +191,11 @@
 		DB2CD1E41D13E8BA00A702DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB38AAB61D190FC90079D152 /* 火影01.png */,
+				DB38AAB71D190FC90079D152 /* 火影02.png */,
+				DB38AAB81D190FC90079D152 /* 火影03.png */,
+				DB38AAB91D190FC90079D152 /* 火影04.png */,
+				DB38AABA1D190FC90079D152 /* 火影05.png */,
 				DB2CD1E51D13E8BA00A702DC /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +217,101 @@
 				DB2CD20B1D13E8BA00A702DC /* Info.plist */,
 			);
 			path = JFJAnimationsUITests;
+			sourceTree = "<group>";
+		};
+		DB2CD21B1D13EAF000A702DC /* JFJAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DB38AACD1D1A74CA0079D152 /* UIImage+ImageEffects */,
+				DB38AAC61D1A611E0079D152 /* TextEffects */,
+				DB38AAA71D18DCEE0079D152 /* CustomNavigationViewController */,
+				DB38AAA31D18DCB20079D152 /* UITableView+loadAnimtion */,
+				DB2CD21F1D13EB5400A702DC /* EasingFiles */,
+				DB2CD21C1D13EB0D00A702DC /* JFJAnimationManager.h */,
+				DB2CD21D1D13EB0D00A702DC /* JFJAnimationManager.m */,
+				DB38AAAE1D18DD750079D152 /* JFJTranslationManager.h */,
+				DB38AAAF1D18DD750079D152 /* JFJTranslationManager.m */,
+			);
+			path = JFJAnimation;
+			sourceTree = "<group>";
+		};
+		DB2CD21F1D13EB5400A702DC /* EasingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DB2CD2291D13F6D600A702DC /* easing.png */,
+				DB2CD2201D13EB5400A702DC /* easing.c */,
+				DB2CD2211D13EB5400A702DC /* easing.h */,
+				DB2CD2221D13EB5400A702DC /* YXEasing.h */,
+				DB2CD2231D13EB5400A702DC /* YXEasing.m */,
+			);
+			path = EasingFiles;
+			sourceTree = "<group>";
+		};
+		DB38AAA31D18DCB20079D152 /* UITableView+loadAnimtion */ = {
+			isa = PBXGroup;
+			children = (
+				DB38AAA41D18DCB20079D152 /* UITableView+LoadAnimation.h */,
+				DB38AAA51D18DCB20079D152 /* UITableView+LoadAnimation.m */,
+			);
+			path = "UITableView+loadAnimtion";
+			sourceTree = "<group>";
+		};
+		DB38AAA71D18DCEE0079D152 /* CustomNavigationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB38AAA81D18DCEE0079D152 /* JFJAnimationController.h */,
+				DB38AAA91D18DCEE0079D152 /* JFJAnimationController.m */,
+				DB38AAAA1D18DCEE0079D152 /* JFJNavigationController.h */,
+				DB38AAAB1D18DCEE0079D152 /* JFJNavigationController.m */,
+			);
+			path = CustomNavigationViewController;
+			sourceTree = "<group>";
+		};
+		DB38AAC61D1A611E0079D152 /* TextEffects */ = {
+			isa = PBXGroup;
+			children = (
+				DB4FF5A21D1B7B0500391875 /* JFJEffectManager.h */,
+				DB38AAC81D1A64C70079D152 /* JFJEffectManager.m */,
+			);
+			path = TextEffects;
+			sourceTree = "<group>";
+		};
+		DB38AACD1D1A74CA0079D152 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				DB38AACE1D1A74CA0079D152 /* UIImage+ImageEffects.h */,
+				DB38AACF1D1A74CA0079D152 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+		DB4FF5A31D1B7B1700391875 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB4FF5A41D1B7B1700391875 /* AnchorRotaeViewController.h */,
+				DB4FF5A51D1B7B1700391875 /* AnchorRotaeViewController.m */,
+				DB4FF5A61D1B7B1700391875 /* CenterRoutateViewController.h */,
+				DB4FF5A71D1B7B1700391875 /* CenterRoutateViewController.m */,
+				DB4FF5A81D1B7B1700391875 /* CircleTransController.h */,
+				DB4FF5A91D1B7B1700391875 /* CircleTransController.m */,
+				DB4FF5AA1D1B7B1700391875 /* DelayViewController.h */,
+				DB4FF5AB1D1B7B1700391875 /* DelayViewController.m */,
+				DB4FF5AC1D1B7B1700391875 /* EffectViewController.h */,
+				DB4FF5AD1D1B7B1700391875 /* EffectViewController.m */,
+				DB4FF5AE1D1B7B1700391875 /* FlipViewConreoller.h */,
+				DB4FF5AF1D1B7B1700391875 /* FlipViewConreoller.m */,
+				DB4FF5B01D1B7B1700391875 /* ImageTransController.h */,
+				DB4FF5B11D1B7B1700391875 /* ImageTransController.m */,
+				DB4FF5B21D1B7B1700391875 /* ShakeViewController.h */,
+				DB4FF5B31D1B7B1700391875 /* ShakeViewController.m */,
+				DB4FF5B41D1B7B1700391875 /* SmallToBigViewController.h */,
+				DB4FF5B51D1B7B1700391875 /* SmallToBigViewController.m */,
+				DB4FF5B61D1B7B1700391875 /* TransBlurController.h */,
+				DB4FF5B71D1B7B1700391875 /* TransBlurController.m */,
+				DB4FF5B81D1B7B1700391875 /* TransSystemController.h */,
+				DB4FF5B91D1B7B1700391875 /* TransSystemController.m */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +417,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB2CD22A1D13F6D600A702DC /* easing.png in Resources */,
 				DB2CD1F41D13E8BA00A702DC /* LaunchScreen.storyboard in Resources */,
 				DB2CD1F11D13E8BA00A702DC /* Assets.xcassets in Resources */,
+				DB38AABE1D190FC90079D152 /* 火影04.png in Resources */,
+				DB38AABB1D190FC90079D152 /* 火影01.png in Resources */,
 				DB2CD1EF1D13E8BA00A702DC /* Main.storyboard in Resources */,
+				DB38AABD1D190FC90079D152 /* 火影03.png in Resources */,
+				DB38AABC1D190FC90079D152 /* 火影02.png in Resources */,
+				DB38AABF1D190FC90079D152 /* 火影05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +450,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4FF5BF1D1B7B1700391875 /* FlipViewConreoller.m in Sources */,
+				DB4FF5BC1D1B7B1700391875 /* CircleTransController.m in Sources */,
 				DB2CD1EC1D13E8BA00A702DC /* ViewController.m in Sources */,
+				DB38AAD01D1A74CA0079D152 /* UIImage+ImageEffects.m in Sources */,
+				DB38AAAD1D18DCEE0079D152 /* JFJNavigationController.m in Sources */,
+				DB2CD2251D13EB5400A702DC /* YXEasing.m in Sources */,
+				DB4FF5C01D1B7B1700391875 /* ImageTransController.m in Sources */,
+				DB4FF5BE1D1B7B1700391875 /* EffectViewController.m in Sources */,
 				DB2CD1E91D13E8BA00A702DC /* AppDelegate.m in Sources */,
+				DB4FF5BA1D1B7B1700391875 /* AnchorRotaeViewController.m in Sources */,
+				DB38AAB01D18DD750079D152 /* JFJTranslationManager.m in Sources */,
+				DB38AAA61D18DCB20079D152 /* UITableView+LoadAnimation.m in Sources */,
 				DB2CD1E61D13E8BA00A702DC /* main.m in Sources */,
+				DB38AAAC1D18DCEE0079D152 /* JFJAnimationController.m in Sources */,
+				DB2CD21E1D13EB0D00A702DC /* JFJAnimationManager.m in Sources */,
+				DB4FF5C41D1B7B1700391875 /* TransSystemController.m in Sources */,
+				DB4FF5C11D1B7B1700391875 /* ShakeViewController.m in Sources */,
+				DB2CD2241D13EB5400A702DC /* easing.c in Sources */,
+				DB4FF5C21D1B7B1700391875 /* SmallToBigViewController.m in Sources */,
+				DB4FF5BB1D1B7B1700391875 /* CenterRoutateViewController.m in Sources */,
+				DB4FF5C31D1B7B1700391875 /* TransBlurController.m in Sources */,
+				DB4FF5BD1D1B7B1700391875 /* DelayViewController.m in Sources */,
+				DB38AAC91D1A64C70079D152 /* JFJEffectManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +613,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JFJAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artron.JFJAnimations;
@@ -424,6 +626,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = JFJAnimations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.artron.JFJAnimations;
@@ -496,6 +700,7 @@
 				DB2CD2101D13E8BA00A702DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2CD2111D13E8BA00A702DC /* Build configuration list for PBXNativeTarget "JFJAnimationsTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +709,7 @@
 				DB2CD2131D13E8BA00A702DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB2CD2141D13E8BA00A702DC /* Build configuration list for PBXNativeTarget "JFJAnimationsUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +718,7 @@
 				DB2CD2161D13E8BA00A702DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
