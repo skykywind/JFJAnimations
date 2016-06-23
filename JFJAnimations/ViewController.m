@@ -20,6 +20,10 @@
 #import "TransSystemController.h"
 #import "EffectViewController.h"
 #import "TransBlurController.h"
+#import "CircleViewController.h"
+#import "EmitterViewController.h"
+#import "GradientController.h"
+
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -33,9 +37,35 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.automaticallyAdjustsScrollViewInsets = NO;
-    _dataSource = [NSMutableArray arrayWithObjects:@"1, 大小弹性动画", @"2, 绕中心自转动画", @"3, 锚点自转动画", @"4, 移动衰减动画", @"5, 翻转动画", @"6, 抖动动画", @"7, 圆弧切换视图", @"8, 淡入切换图片", @"9, 系统切换视图动画", @"11, 模糊效果展示", @"12, 模糊切换图片", @"13, ",  @"14, ", @"15, ", nil];
+    _dataSource = [NSMutableArray arrayWithObjects:@"1,  大小弹性动画",
+                   @"2,  绕中心自转动画",
+                   @"3,  锚点自转动画",
+                   @"4,  移动动画",
+                   @"5,  翻转动画",
+                   @"6,  抖动动画",
+                   @"7,  圆弧切换视图",
+                   @"8,  淡入切换图片",
+                   @"9,  系统切换视图动画",
+                   @"11, 模糊效果展示",
+                   @"12, 模糊切换图片",
+                   @"13, 圆形进度条",
+                   @"14, 粒子效果展示（下雪和下雨）",
+                   @"15, 颜色渐变动画",nil];
     
-    _controllers = @[[SmallToBigViewController class], [CenterRoutateViewController class],[AnchorRotaeViewController class], [DelayViewController class],[FlipViewConreoller class], [ShakeViewController class],[CircleTransController class], [ImageTransController class], [TransSystemController class], [EffectViewController class], [TransBlurController class]];
+    _controllers = @[[SmallToBigViewController class],
+                     [CenterRoutateViewController class],
+                     [AnchorRotaeViewController class],
+                     [DelayViewController class],
+                     [FlipViewConreoller class],
+                     [ShakeViewController class],
+                     [CircleTransController class],
+                     [ImageTransController class],
+                     [TransSystemController class],
+                     [EffectViewController class],
+                     [TransBlurController class],
+                     [CircleViewController class],
+                     [EmitterViewController class],
+                     [GradientController class]];
     
     _mainTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64) style:UITableViewStylePlain];
     
@@ -83,6 +113,8 @@
     [JFJAnimationManager animationSmallToBigView:cell duration:1.5];
 
 }
+
+
 
 - (NSMutableArray *)dataSource {
     if (!_dataSource) {

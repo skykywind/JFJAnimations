@@ -40,9 +40,14 @@
     [containerView addSubview:toView];
     
     
+    
+    /**************** 自定义动画 ******************/
+    
     if (self.operation == UINavigationControllerOperationPush) {
+        // push
         startFrame.origin.y -= endFrame.size.height;
     } else if (self.operation == UINavigationControllerOperationPop) {
+        // pop
         fromEndFrame.origin.y -=fromStartFrame.size.height;
         [containerView sendSubviewToBack:toView];
     }

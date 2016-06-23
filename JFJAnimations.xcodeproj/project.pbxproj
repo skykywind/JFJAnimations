@@ -41,6 +41,17 @@
 		DB4FF5C21D1B7B1700391875 /* SmallToBigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B51D1B7B1700391875 /* SmallToBigViewController.m */; };
 		DB4FF5C31D1B7B1700391875 /* TransBlurController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B71D1B7B1700391875 /* TransBlurController.m */; };
 		DB4FF5C41D1B7B1700391875 /* TransSystemController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5B91D1B7B1700391875 /* TransSystemController.m */; };
+		DB4FF5C81D1B847D00391875 /* CircleProgreessView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5C71D1B847D00391875 /* CircleProgreessView.m */; };
+		DB4FF5CE1D1B882300391875 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5CD1D1B882300391875 /* CircleViewController.m */; };
+		DB4FF5D31D1BB21E00391875 /* EmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5D21D1BB21E00391875 /* EmitterLayerView.m */; };
+		DB4FF5D61D1BB55600391875 /* EmitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5D51D1BB55600391875 /* EmitterViewController.m */; };
+		DB4FF5DC1D1BBA6700391875 /* alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF5D71D1BBA6700391875 /* alpha@2x.png */; };
+		DB4FF5DD1D1BBA6700391875 /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF5D81D1BBA6700391875 /* rain@2x.png */; };
+		DB4FF5DE1D1BBA6700391875 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB4FF5D91D1BBA6700391875 /* snow@2x.png */; };
+		DB4FF5DF1D1BBA6700391875 /* SnowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5DB1D1BBA6700391875 /* SnowView.m */; };
+		DB4FF5E21D1BBA7900391875 /* RainView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5E11D1BBA7900391875 /* RainView.m */; };
+		DB4FF5E81D1BC6AE00391875 /* GradientController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5E71D1BC6AE00391875 /* GradientController.m */; };
+		DB4FF5EB1D1BC6CD00391875 /* GradierntView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5EA1D1BC6CD00391875 /* GradierntView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +134,25 @@
 		DB4FF5B71D1B7B1700391875 /* TransBlurController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransBlurController.m; sourceTree = "<group>"; };
 		DB4FF5B81D1B7B1700391875 /* TransSystemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransSystemController.h; sourceTree = "<group>"; };
 		DB4FF5B91D1B7B1700391875 /* TransSystemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransSystemController.m; sourceTree = "<group>"; };
+		DB4FF5C61D1B847D00391875 /* CircleProgreessView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgreessView.h; sourceTree = "<group>"; };
+		DB4FF5C71D1B847D00391875 /* CircleProgreessView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgreessView.m; sourceTree = "<group>"; };
+		DB4FF5CC1D1B882300391875 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		DB4FF5CD1D1B882300391875 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
+		DB4FF5D11D1BB21E00391875 /* EmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterLayerView.h; sourceTree = "<group>"; };
+		DB4FF5D21D1BB21E00391875 /* EmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterLayerView.m; sourceTree = "<group>"; };
+		DB4FF5D41D1BB55600391875 /* EmitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmitterViewController.h; sourceTree = "<group>"; };
+		DB4FF5D51D1BB55600391875 /* EmitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmitterViewController.m; sourceTree = "<group>"; };
+		DB4FF5D71D1BBA6700391875 /* alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha@2x.png"; sourceTree = "<group>"; };
+		DB4FF5D81D1BBA6700391875 /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		DB4FF5D91D1BBA6700391875 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		DB4FF5DA1D1BBA6700391875 /* SnowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowView.h; sourceTree = "<group>"; };
+		DB4FF5DB1D1BBA6700391875 /* SnowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowView.m; sourceTree = "<group>"; };
+		DB4FF5E01D1BBA7900391875 /* RainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainView.h; sourceTree = "<group>"; };
+		DB4FF5E11D1BBA7900391875 /* RainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainView.m; sourceTree = "<group>"; };
+		DB4FF5E61D1BC6AE00391875 /* GradientController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientController.h; sourceTree = "<group>"; };
+		DB4FF5E71D1BC6AE00391875 /* GradientController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientController.m; sourceTree = "<group>"; };
+		DB4FF5E91D1BC6CD00391875 /* GradierntView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradierntView.h; sourceTree = "<group>"; };
+		DB4FF5EA1D1BC6CD00391875 /* GradierntView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradierntView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +252,9 @@
 		DB2CD21B1D13EAF000A702DC /* JFJAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				DB4FF5CF1D1BB1F600391875 /* EmitterLayerView */,
+				DB4FF5D01D1BB1F600391875 /* GradientLayerView */,
+				DB4FF5C51D1B845B00391875 /* CircleProgessView */,
 				DB38AACD1D1A74CA0079D152 /* UIImage+ImageEffects */,
 				DB38AAC61D1A611E0079D152 /* TextEffects */,
 				DB38AAA71D18DCEE0079D152 /* CustomNavigationViewController */,
@@ -310,8 +343,48 @@
 				DB4FF5B71D1B7B1700391875 /* TransBlurController.m */,
 				DB4FF5B81D1B7B1700391875 /* TransSystemController.h */,
 				DB4FF5B91D1B7B1700391875 /* TransSystemController.m */,
+				DB4FF5CC1D1B882300391875 /* CircleViewController.h */,
+				DB4FF5CD1D1B882300391875 /* CircleViewController.m */,
+				DB4FF5D41D1BB55600391875 /* EmitterViewController.h */,
+				DB4FF5D51D1BB55600391875 /* EmitterViewController.m */,
+				DB4FF5E61D1BC6AE00391875 /* GradientController.h */,
+				DB4FF5E71D1BC6AE00391875 /* GradientController.m */,
 			);
 			path = controllers;
+			sourceTree = "<group>";
+		};
+		DB4FF5C51D1B845B00391875 /* CircleProgessView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4FF5C61D1B847D00391875 /* CircleProgreessView.h */,
+				DB4FF5C71D1B847D00391875 /* CircleProgreessView.m */,
+			);
+			path = CircleProgessView;
+			sourceTree = "<group>";
+		};
+		DB4FF5CF1D1BB1F600391875 /* EmitterLayerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4FF5D71D1BBA6700391875 /* alpha@2x.png */,
+				DB4FF5D81D1BBA6700391875 /* rain@2x.png */,
+				DB4FF5D91D1BBA6700391875 /* snow@2x.png */,
+				DB4FF5DA1D1BBA6700391875 /* SnowView.h */,
+				DB4FF5DB1D1BBA6700391875 /* SnowView.m */,
+				DB4FF5E01D1BBA7900391875 /* RainView.h */,
+				DB4FF5E11D1BBA7900391875 /* RainView.m */,
+				DB4FF5D11D1BB21E00391875 /* EmitterLayerView.h */,
+				DB4FF5D21D1BB21E00391875 /* EmitterLayerView.m */,
+			);
+			path = EmitterLayerView;
+			sourceTree = "<group>";
+		};
+		DB4FF5D01D1BB1F600391875 /* GradientLayerView */ = {
+			isa = PBXGroup;
+			children = (
+				DB4FF5E91D1BC6CD00391875 /* GradierntView.h */,
+				DB4FF5EA1D1BC6CD00391875 /* GradierntView.m */,
+			);
+			path = GradientLayerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,12 +493,15 @@
 				DB2CD22A1D13F6D600A702DC /* easing.png in Resources */,
 				DB2CD1F41D13E8BA00A702DC /* LaunchScreen.storyboard in Resources */,
 				DB2CD1F11D13E8BA00A702DC /* Assets.xcassets in Resources */,
+				DB4FF5DE1D1BBA6700391875 /* snow@2x.png in Resources */,
 				DB38AABE1D190FC90079D152 /* 火影04.png in Resources */,
 				DB38AABB1D190FC90079D152 /* 火影01.png in Resources */,
+				DB4FF5DC1D1BBA6700391875 /* alpha@2x.png in Resources */,
 				DB2CD1EF1D13E8BA00A702DC /* Main.storyboard in Resources */,
 				DB38AABD1D190FC90079D152 /* 火影03.png in Resources */,
 				DB38AABC1D190FC90079D152 /* 火影02.png in Resources */,
 				DB38AABF1D190FC90079D152 /* 火影05.png in Resources */,
+				DB4FF5DD1D1BBA6700391875 /* rain@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB4FF5BF1D1B7B1700391875 /* FlipViewConreoller.m in Sources */,
+				DB4FF5E81D1BC6AE00391875 /* GradientController.m in Sources */,
 				DB4FF5BC1D1B7B1700391875 /* CircleTransController.m in Sources */,
 				DB2CD1EC1D13E8BA00A702DC /* ViewController.m in Sources */,
 				DB38AAD01D1A74CA0079D152 /* UIImage+ImageEffects.m in Sources */,
@@ -464,15 +541,22 @@
 				DB38AAA61D18DCB20079D152 /* UITableView+LoadAnimation.m in Sources */,
 				DB2CD1E61D13E8BA00A702DC /* main.m in Sources */,
 				DB38AAAC1D18DCEE0079D152 /* JFJAnimationController.m in Sources */,
+				DB4FF5CE1D1B882300391875 /* CircleViewController.m in Sources */,
 				DB2CD21E1D13EB0D00A702DC /* JFJAnimationManager.m in Sources */,
 				DB4FF5C41D1B7B1700391875 /* TransSystemController.m in Sources */,
+				DB4FF5D31D1BB21E00391875 /* EmitterLayerView.m in Sources */,
 				DB4FF5C11D1B7B1700391875 /* ShakeViewController.m in Sources */,
 				DB2CD2241D13EB5400A702DC /* easing.c in Sources */,
 				DB4FF5C21D1B7B1700391875 /* SmallToBigViewController.m in Sources */,
+				DB4FF5EB1D1BC6CD00391875 /* GradierntView.m in Sources */,
 				DB4FF5BB1D1B7B1700391875 /* CenterRoutateViewController.m in Sources */,
 				DB4FF5C31D1B7B1700391875 /* TransBlurController.m in Sources */,
+				DB4FF5D61D1BB55600391875 /* EmitterViewController.m in Sources */,
+				DB4FF5E21D1BBA7900391875 /* RainView.m in Sources */,
 				DB4FF5BD1D1B7B1700391875 /* DelayViewController.m in Sources */,
 				DB38AAC91D1A64C70079D152 /* JFJEffectManager.m in Sources */,
+				DB4FF5C81D1B847D00391875 /* CircleProgreessView.m in Sources */,
+				DB4FF5DF1D1BBA6700391875 /* SnowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
