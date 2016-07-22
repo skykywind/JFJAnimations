@@ -18,6 +18,16 @@ typedef enum :NSUInteger {
 
 @interface GradierntView : UIView
 
+///**
+// *  显示的文本
+// */
+//@property (nonatomic, strong) NSString *text;
+//
+///**
+// *  显示的图片
+// */
+//@property (nonatomic, strong) UIImage *image;
+
 /**
  *  确定方向
  */
@@ -34,6 +44,6 @@ typedef enum :NSUInteger {
  *
  *  @param duration 动画时长
  */
-- (void)animate:(NSTimeInterval)duration;
+- (void)animate:(NSTimeInterval)duration repeatCount:(CGFloat)repeatCount;
 
 @end

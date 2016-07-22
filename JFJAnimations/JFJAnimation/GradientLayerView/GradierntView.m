@@ -20,14 +20,15 @@
     self = [super initWithFrame:frame];
     
     if (self) {
+        self.layer.masksToBounds = YES;
         self.gradientLayer = [CAGradientLayer layer];
-        self.gradientLayer.frame = self.bounds;
+        self.gradientLayer.frame = CGRectMake(-self.bounds.size.width, 0, self.bounds.size.width *3, self.bounds.size.height) ;
         self.gradientLayer.colors = @[
                                       (__bridge id)[UIColor clearColor].CGColor,
                                       (__bridge id)[UIColor redColor].CGColor,
                                       (__bridge id)[UIColor clearColor].CGColor
                                       ];
-        self.gradientLayer.locations = @[@(-1), @(-0.5), @(0)];
+        self.gradientLayer.locations = @[@(0.0), @(0.25), @(0.5)];
         self.gradientLayer.startPoint = CGPointMake(0, 0);
         self.gradientLayer.endPoint = CGPointMake(1, 0);
         [self.layer addSublayer:self.gradientLayer];
@@ -77,16 +78,28 @@
     }
     
 }
+//
+//- (void)setText:(NSString *)text {
+//    _text = text;
+//    
+//    if (self.gradientLayer.mask != nil) {
+//        self.gradientLayer.mask = nil;
+//    }
+//    
+//    
+// //   CALayer *layer = [CALayer layer];
+//    
+//    
+//}
 
-
-
-- (void)animate:(NSTimeInterval)duration{
+- (void)animate:(NSTimeInterval)duration repeatCount:(CGFloat)repeatCount{
    
-        CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"locations"];
-        animation.fromValue = self.gradientLayer.locations;
-        animation.toValue = @[@(1),@(1.5), @(2)];
-        animation.duration = duration;
-        [self.gradientLayer addAnimation:animation forKey:nil];
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"locations"];
+    animation.fromValue = self.gradientLayer.locations;
+    animation.toValue = @[@(0.75),@(1), @(1)];
+    animation.duration = duration;
+    animation.repeatCount = repeatCount;
+    [self.gradientLayer addAnimation:animation forKey:nil];
 
 }
 @end

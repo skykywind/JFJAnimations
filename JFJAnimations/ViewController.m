@@ -23,6 +23,9 @@
 #import "CircleViewController.h"
 #import "EmitterViewController.h"
 #import "GradientController.h"
+#import "PageLayoutController.h"
+#import "ParallaxViewController.h"
+#import "DGSlimeController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -50,7 +53,10 @@
                    @"12, 模糊切换图片",
                    @"13, 圆形进度条",
                    @"14, 粒子效果展示（下雪和下雨）",
-                   @"15, 颜色渐变动画",nil];
+                   @"15, 颜色渐变动画",
+                   @"16, PageCell",
+                   @"17, 视差动画",
+                   @"18, 仿QQ消息提醒的小红点",nil];
     
     _controllers = @[[SmallToBigViewController class],
                      [CenterRoutateViewController class],
@@ -65,7 +71,11 @@
                      [TransBlurController class],
                      [CircleViewController class],
                      [EmitterViewController class],
-                     [GradientController class]];
+                     [GradientController class],
+                     [PageLayoutController class],
+                     [ParallaxViewController class],
+                     [DGSlimeController class]];
+    
     
     _mainTable = [[UITableView alloc] initWithFrame:CGRectMake(0, 64, self.view.frame.size.width, self.view.frame.size.height - 64) style:UITableViewStylePlain];
     

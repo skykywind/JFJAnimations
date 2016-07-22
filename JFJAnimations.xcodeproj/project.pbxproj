@@ -19,6 +19,12 @@
 		DB2CD2241D13EB5400A702DC /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD2201D13EB5400A702DC /* easing.c */; };
 		DB2CD2251D13EB5400A702DC /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = DB2CD2231D13EB5400A702DC /* YXEasing.m */; };
 		DB2CD22A1D13F6D600A702DC /* easing.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2CD2291D13F6D600A702DC /* easing.png */; };
+		DB374EEF1D22729D00F55676 /* ParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB374EEE1D22729D00F55676 /* ParallaxCell.m */; };
+		DB374EF21D22734A00F55676 /* ParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB374EF11D22734A00F55676 /* ParallaxViewController.m */; };
+		DB374EF71D2276BC00F55676 /* demo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB374EF31D2276BC00F55676 /* demo_1.jpg */; };
+		DB374EF81D2276BC00F55676 /* demo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB374EF41D2276BC00F55676 /* demo_2.jpg */; };
+		DB374EF91D2276BC00F55676 /* demo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB374EF51D2276BC00F55676 /* demo_3.jpg */; };
+		DB374EFA1D2276BC00F55676 /* demo_4.png in Resources */ = {isa = PBXBuildFile; fileRef = DB374EF61D2276BC00F55676 /* demo_4.png */; };
 		DB38AAA61D18DCB20079D152 /* UITableView+LoadAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAA51D18DCB20079D152 /* UITableView+LoadAnimation.m */; };
 		DB38AAAC1D18DCEE0079D152 /* JFJAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAA91D18DCEE0079D152 /* JFJAnimationController.m */; };
 		DB38AAAD1D18DCEE0079D152 /* JFJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAAB1D18DCEE0079D152 /* JFJNavigationController.m */; };
@@ -30,6 +36,12 @@
 		DB38AABF1D190FC90079D152 /* 火影05.png in Resources */ = {isa = PBXBuildFile; fileRef = DB38AABA1D190FC90079D152 /* 火影05.png */; };
 		DB38AAC91D1A64C70079D152 /* JFJEffectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AAC81D1A64C70079D152 /* JFJEffectManager.m */; };
 		DB38AAD01D1A74CA0079D152 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DB38AACF1D1A74CA0079D152 /* UIImage+ImageEffects.m */; };
+		DB3BCCF71D20B6D100720B32 /* PageLayoutController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BCCF61D20B6D100720B32 /* PageLayoutController.m */; };
+		DB3BCCFA1D20B70000720B32 /* MyCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3BCCF91D20B70000720B32 /* MyCollectionCell.m */; };
+		DB434E301D236F1500B02FED /* DGSlimeDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB434E2D1D236F1500B02FED /* DGSlimeDotView.m */; };
+		DB434E311D236F1500B02FED /* DGSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB434E2F1D236F1500B02FED /* DGSlimeView.m */; };
+		DB434E341D236F8A00B02FED /* DGSlimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB434E331D236F8A00B02FED /* DGSlimeController.m */; };
+		DB43B7E41D1D2058006C8C2B /* PageCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB43B7E31D1D2058006C8C2B /* PageCollectionLayout.m */; };
 		DB4FF5BA1D1B7B1700391875 /* AnchorRotaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A51D1B7B1700391875 /* AnchorRotaeViewController.m */; };
 		DB4FF5BB1D1B7B1700391875 /* CenterRoutateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A71D1B7B1700391875 /* CenterRoutateViewController.m */; };
 		DB4FF5BC1D1B7B1700391875 /* CircleTransController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB4FF5A91D1B7B1700391875 /* CircleTransController.m */; };
@@ -95,6 +107,14 @@
 		DB2CD2221D13EB5400A702DC /* YXEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXEasing.h; sourceTree = "<group>"; };
 		DB2CD2231D13EB5400A702DC /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
 		DB2CD2291D13F6D600A702DC /* easing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = easing.png; sourceTree = "<group>"; };
+		DB374EED1D22729D00F55676 /* ParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCell.h; sourceTree = "<group>"; };
+		DB374EEE1D22729D00F55676 /* ParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCell.m; sourceTree = "<group>"; };
+		DB374EF01D22734A00F55676 /* ParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxViewController.h; sourceTree = "<group>"; };
+		DB374EF11D22734A00F55676 /* ParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxViewController.m; sourceTree = "<group>"; };
+		DB374EF31D2276BC00F55676 /* demo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_1.jpg; sourceTree = "<group>"; };
+		DB374EF41D2276BC00F55676 /* demo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_2.jpg; sourceTree = "<group>"; };
+		DB374EF51D2276BC00F55676 /* demo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_3.jpg; sourceTree = "<group>"; };
+		DB374EF61D2276BC00F55676 /* demo_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo_4.png; sourceTree = "<group>"; };
 		DB38AAA41D18DCB20079D152 /* UITableView+LoadAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LoadAnimation.h"; sourceTree = "<group>"; };
 		DB38AAA51D18DCB20079D152 /* UITableView+LoadAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LoadAnimation.m"; sourceTree = "<group>"; };
 		DB38AAA81D18DCEE0079D152 /* JFJAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFJAnimationController.h; sourceTree = "<group>"; };
@@ -111,6 +131,19 @@
 		DB38AAC81D1A64C70079D152 /* JFJEffectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFJEffectManager.m; sourceTree = "<group>"; };
 		DB38AACE1D1A74CA0079D152 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		DB38AACF1D1A74CA0079D152 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DB3BCCF51D20B6D100720B32 /* PageLayoutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageLayoutController.h; sourceTree = "<group>"; };
+		DB3BCCF61D20B6D100720B32 /* PageLayoutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageLayoutController.m; sourceTree = "<group>"; };
+		DB3BCCF81D20B70000720B32 /* MyCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCollectionCell.h; path = ../../controllers/MyCollectionCell.h; sourceTree = "<group>"; };
+		DB3BCCF91D20B70000720B32 /* MyCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCollectionCell.m; path = ../../controllers/MyCollectionCell.m; sourceTree = "<group>"; };
+		DB434E2B1D236F1500B02FED /* CommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHeader.h; sourceTree = "<group>"; };
+		DB434E2C1D236F1500B02FED /* DGSlimeDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGSlimeDotView.h; sourceTree = "<group>"; };
+		DB434E2D1D236F1500B02FED /* DGSlimeDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGSlimeDotView.m; sourceTree = "<group>"; };
+		DB434E2E1D236F1500B02FED /* DGSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGSlimeView.h; sourceTree = "<group>"; };
+		DB434E2F1D236F1500B02FED /* DGSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGSlimeView.m; sourceTree = "<group>"; };
+		DB434E321D236F8A00B02FED /* DGSlimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGSlimeController.h; sourceTree = "<group>"; };
+		DB434E331D236F8A00B02FED /* DGSlimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGSlimeController.m; sourceTree = "<group>"; };
+		DB43B7E21D1D2058006C8C2B /* PageCollectionLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageCollectionLayout.h; sourceTree = "<group>"; };
+		DB43B7E31D1D2058006C8C2B /* PageCollectionLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageCollectionLayout.m; sourceTree = "<group>"; };
 		DB4FF5A21D1B7B0500391875 /* JFJEffectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFJEffectManager.h; sourceTree = "<group>"; };
 		DB4FF5A41D1B7B1700391875 /* AnchorRotaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnchorRotaeViewController.h; sourceTree = "<group>"; };
 		DB4FF5A51D1B7B1700391875 /* AnchorRotaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnchorRotaeViewController.m; sourceTree = "<group>"; };
@@ -221,6 +254,10 @@
 		DB2CD1E41D13E8BA00A702DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB374EF31D2276BC00F55676 /* demo_1.jpg */,
+				DB374EF41D2276BC00F55676 /* demo_2.jpg */,
+				DB374EF51D2276BC00F55676 /* demo_3.jpg */,
+				DB374EF61D2276BC00F55676 /* demo_4.png */,
 				DB38AAB61D190FC90079D152 /* 火影01.png */,
 				DB38AAB71D190FC90079D152 /* 火影02.png */,
 				DB38AAB81D190FC90079D152 /* 火影03.png */,
@@ -252,6 +289,9 @@
 		DB2CD21B1D13EAF000A702DC /* JFJAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				DB434E2A1D236F1500B02FED /* brokeView */,
+				DB374EEC1D22729D00F55676 /* ParallaxCell */,
+				DB43B7E11D1D1FF6006C8C2B /* CustomCollectionlayout */,
 				DB4FF5CF1D1BB1F600391875 /* EmitterLayerView */,
 				DB4FF5D01D1BB1F600391875 /* GradientLayerView */,
 				DB4FF5C51D1B845B00391875 /* CircleProgessView */,
@@ -278,6 +318,15 @@
 				DB2CD2231D13EB5400A702DC /* YXEasing.m */,
 			);
 			path = EasingFiles;
+			sourceTree = "<group>";
+		};
+		DB374EEC1D22729D00F55676 /* ParallaxCell */ = {
+			isa = PBXGroup;
+			children = (
+				DB374EED1D22729D00F55676 /* ParallaxCell.h */,
+				DB374EEE1D22729D00F55676 /* ParallaxCell.m */,
+			);
+			path = ParallaxCell;
 			sourceTree = "<group>";
 		};
 		DB38AAA31D18DCB20079D152 /* UITableView+loadAnimtion */ = {
@@ -318,6 +367,29 @@
 			path = "UIImage+ImageEffects";
 			sourceTree = "<group>";
 		};
+		DB434E2A1D236F1500B02FED /* brokeView */ = {
+			isa = PBXGroup;
+			children = (
+				DB434E2B1D236F1500B02FED /* CommonHeader.h */,
+				DB434E2C1D236F1500B02FED /* DGSlimeDotView.h */,
+				DB434E2D1D236F1500B02FED /* DGSlimeDotView.m */,
+				DB434E2E1D236F1500B02FED /* DGSlimeView.h */,
+				DB434E2F1D236F1500B02FED /* DGSlimeView.m */,
+			);
+			path = brokeView;
+			sourceTree = "<group>";
+		};
+		DB43B7E11D1D1FF6006C8C2B /* CustomCollectionlayout */ = {
+			isa = PBXGroup;
+			children = (
+				DB3BCCF81D20B70000720B32 /* MyCollectionCell.h */,
+				DB3BCCF91D20B70000720B32 /* MyCollectionCell.m */,
+				DB43B7E21D1D2058006C8C2B /* PageCollectionLayout.h */,
+				DB43B7E31D1D2058006C8C2B /* PageCollectionLayout.m */,
+			);
+			path = CustomCollectionlayout;
+			sourceTree = "<group>";
+		};
 		DB4FF5A31D1B7B1700391875 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -349,6 +421,12 @@
 				DB4FF5D51D1BB55600391875 /* EmitterViewController.m */,
 				DB4FF5E61D1BC6AE00391875 /* GradientController.h */,
 				DB4FF5E71D1BC6AE00391875 /* GradientController.m */,
+				DB3BCCF51D20B6D100720B32 /* PageLayoutController.h */,
+				DB3BCCF61D20B6D100720B32 /* PageLayoutController.m */,
+				DB374EF01D22734A00F55676 /* ParallaxViewController.h */,
+				DB374EF11D22734A00F55676 /* ParallaxViewController.m */,
+				DB434E321D236F8A00B02FED /* DGSlimeController.h */,
+				DB434E331D236F8A00B02FED /* DGSlimeController.m */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -454,6 +532,7 @@
 				TargetAttributes = {
 					DB2CD1E01D13E8BA00A702DC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = U4KMX8B3F3;
 					};
 					DB2CD1F91D13E8BA00A702DC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -493,14 +572,18 @@
 				DB2CD22A1D13F6D600A702DC /* easing.png in Resources */,
 				DB2CD1F41D13E8BA00A702DC /* LaunchScreen.storyboard in Resources */,
 				DB2CD1F11D13E8BA00A702DC /* Assets.xcassets in Resources */,
+				DB374EF81D2276BC00F55676 /* demo_2.jpg in Resources */,
 				DB4FF5DE1D1BBA6700391875 /* snow@2x.png in Resources */,
+				DB374EFA1D2276BC00F55676 /* demo_4.png in Resources */,
 				DB38AABE1D190FC90079D152 /* 火影04.png in Resources */,
 				DB38AABB1D190FC90079D152 /* 火影01.png in Resources */,
 				DB4FF5DC1D1BBA6700391875 /* alpha@2x.png in Resources */,
 				DB2CD1EF1D13E8BA00A702DC /* Main.storyboard in Resources */,
 				DB38AABD1D190FC90079D152 /* 火影03.png in Resources */,
 				DB38AABC1D190FC90079D152 /* 火影02.png in Resources */,
+				DB374EF71D2276BC00F55676 /* demo_1.jpg in Resources */,
 				DB38AABF1D190FC90079D152 /* 火影05.png in Resources */,
+				DB374EF91D2276BC00F55676 /* demo_3.jpg in Resources */,
 				DB4FF5DD1D1BBA6700391875 /* rain@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +609,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3BCCF71D20B6D100720B32 /* PageLayoutController.m in Sources */,
 				DB4FF5BF1D1B7B1700391875 /* FlipViewConreoller.m in Sources */,
 				DB4FF5E81D1BC6AE00391875 /* GradientController.m in Sources */,
 				DB4FF5BC1D1B7B1700391875 /* CircleTransController.m in Sources */,
@@ -533,23 +617,30 @@
 				DB38AAD01D1A74CA0079D152 /* UIImage+ImageEffects.m in Sources */,
 				DB38AAAD1D18DCEE0079D152 /* JFJNavigationController.m in Sources */,
 				DB2CD2251D13EB5400A702DC /* YXEasing.m in Sources */,
+				DB434E311D236F1500B02FED /* DGSlimeView.m in Sources */,
 				DB4FF5C01D1B7B1700391875 /* ImageTransController.m in Sources */,
 				DB4FF5BE1D1B7B1700391875 /* EffectViewController.m in Sources */,
 				DB2CD1E91D13E8BA00A702DC /* AppDelegate.m in Sources */,
+				DB374EF21D22734A00F55676 /* ParallaxViewController.m in Sources */,
 				DB4FF5BA1D1B7B1700391875 /* AnchorRotaeViewController.m in Sources */,
 				DB38AAB01D18DD750079D152 /* JFJTranslationManager.m in Sources */,
 				DB38AAA61D18DCB20079D152 /* UITableView+LoadAnimation.m in Sources */,
 				DB2CD1E61D13E8BA00A702DC /* main.m in Sources */,
 				DB38AAAC1D18DCEE0079D152 /* JFJAnimationController.m in Sources */,
+				DB434E301D236F1500B02FED /* DGSlimeDotView.m in Sources */,
 				DB4FF5CE1D1B882300391875 /* CircleViewController.m in Sources */,
 				DB2CD21E1D13EB0D00A702DC /* JFJAnimationManager.m in Sources */,
 				DB4FF5C41D1B7B1700391875 /* TransSystemController.m in Sources */,
+				DB434E341D236F8A00B02FED /* DGSlimeController.m in Sources */,
+				DB3BCCFA1D20B70000720B32 /* MyCollectionCell.m in Sources */,
 				DB4FF5D31D1BB21E00391875 /* EmitterLayerView.m in Sources */,
+				DB374EEF1D22729D00F55676 /* ParallaxCell.m in Sources */,
 				DB4FF5C11D1B7B1700391875 /* ShakeViewController.m in Sources */,
 				DB2CD2241D13EB5400A702DC /* easing.c in Sources */,
 				DB4FF5C21D1B7B1700391875 /* SmallToBigViewController.m in Sources */,
 				DB4FF5EB1D1BC6CD00391875 /* GradierntView.m in Sources */,
 				DB4FF5BB1D1B7B1700391875 /* CenterRoutateViewController.m in Sources */,
+				DB43B7E41D1D2058006C8C2B /* PageCollectionLayout.m in Sources */,
 				DB4FF5C31D1B7B1700391875 /* TransBlurController.m in Sources */,
 				DB4FF5D61D1BB55600391875 /* EmitterViewController.m in Sources */,
 				DB4FF5E21D1BBA7900391875 /* RainView.m in Sources */,

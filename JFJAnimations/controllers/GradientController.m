@@ -15,7 +15,7 @@
     GradierntView *view = [[GradierntView alloc] initWithFrame:CGRectMake(0, 0, 200, 40)];
     view.backgroundColor = [UIColor blackColor];
     view.center = self.view.center;
-    view.direction = UPLEFT;
+    view.direction = LEFT;
     view.color = [UIColor cyanColor];
     
     UILabel *label = [[UILabel alloc] initWithFrame:view.bounds];
@@ -29,10 +29,13 @@
     
     [self.view addSubview:view];
     
+    
+    [view animate :1.5f repeatCount:MAXFLOAT];
+    
 }
 
 - (void)tap:(UITapGestureRecognizer *)tap {
-    GradierntView *view = (GradierntView *)tap.view;
-    [view animate:1.0f];
+ //   GradierntView *view = (GradierntView *)tap.view;
+    
 }
 @end
